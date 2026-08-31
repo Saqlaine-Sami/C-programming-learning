@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(){
+       // logical operators = Used to combine or modify boolean expressions.
+
+    // && = AND
+    // || = OR
+    // ! = NOT 
+    
+    
+    
+    
+    
+    //------------------------------------------------ 
+    //      int temp = 1000000;
+
+    // if(temp > 0 && temp < 30){
+    //     printf("The temperature is GOOD");
+    // }
+    // else{
+    //     printf("The temperature is BAD");
+    // }
+    
+ //--------------------------------------------------
+    // int temp = 1000000;
+
+    // if(temp <= 0 || temp >= 30){
+    //     printf("The temperature is BAD");
+    // }
+    // else{
+    //     printf("The temperature is GOOD");
+    // }
+
+//----------------------------------------------------
+
+    bool isSunny = true;
+
+    // if(isSunny)
+    if(!isSunny){
+        printf("It is sunny outside");
+    }
+    else{
+        printf("It is cloudy outside");
+    }
+
+
+    return 0;
+}
