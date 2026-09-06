@@ -12,7 +12,8 @@ int main(){
     {
         if (i == 5)
         {
-            break; // exit the loop when i is equal to 5
+            // break; // exit the loop when i is equal to 5
+            continue; // skip the rest of the code in the loop when i is equal to 5
         }
         printf("%d\n", i);
     }
