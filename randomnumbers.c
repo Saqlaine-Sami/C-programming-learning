@@ -18,6 +18,8 @@ int main(){
     int min = 1;
     int max = 6;
 
+    // int randomNum = (rand()%2)+1;
+
     int randomNumber1 =(rand() % (max - min + 1)) + min; // generates a pseudo-random number between 1 and 6
     int randomNumber2 =(rand() % (max - min + 1)) + min; // generates a pseudo-random number between 1 and 6
     int randomNumber3 =(rand() % (max - min + 1)) + min; // generates a pseudo-random number between 1 and 6
